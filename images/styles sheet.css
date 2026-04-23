@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+#menu {
+    background-image: linear-gradient(to right, rgba(15,15,15,1.00), rgba(41,41,41,1.00), rgba(15,15,15,1.00));
+    height: 7vh;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    width: 100%;
+    box-sizing: border-box; 
+    padding: 10px 0}
+#menu a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;}
+
+.logo-link {
+    height: 100%;
+    display: flex; 
+    align-items: center;}
+
+#logo_name_menu {
+    height: 100%;   
+    width: auto;     
+    display: block;}
+#img_logo_contenu_titre {
+	padding-top: 30px }
+
+#contenu_titre {
+	text-align: center;}
+
+h1 {color: white;
+	font-size: 42px}
+
+body {background-color: rgba(15,15,15,1.00)}
+#hr_under_menu{height: 3px; background-color:rgba(57,251,255,1.00); border: none; width: 100%;}
+td {color: rgba(248,248,248,1.00)}
+#titre {color: rgba(255,255,255,1.00);text-align: center;font-size: 400%}
