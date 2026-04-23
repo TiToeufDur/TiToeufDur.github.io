@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+
+	</style>
+<meta charset="utf-8">
+<title>TheOnlyTao - CPU</title>
+<link rel="stylesheet" href="styles sheet.css">
+<link rel="stylesheet" href="style sheet articles.css">
+<script src="panier.js"></script>
+<link href="Images/Logo.png" rel="icon">
+</head>
+<body>
+	
+<div id="menu">
+    <a href="index.html" class="logo-link">
+        <img id="logo_name_menu" src="images/Logo_nom.png" alt="Accueil">
+    </a>
+    <a class="menu_choix" href="articles.html">Articles</a>
+    <a class="menu_choix panier-link" href="panier.html">Panier</a>
+</div>
+
+</div>
+
+<hr id="hr_under_menu">
+	<div class="conteneur-page">
+  <aside class="sidebar">
+    <h3 style="font-size: 1.5em; color: #FFFFFF;">Pièces d'ordi</h3>
+    <ul>
+      <li><a href="articles cpu.html">CPU</a></li>
+      <li><a href="articles gpu.html">GPU</a></li>
+      <li><a href="articles carte_mere.html">Carte Mère</a></li>
+      <li><a href="articles memoire.html">Mémoire</a></li>
+    </ul>
+  </aside>
+  <section class="contenu-principal">
+    <h1 id="categories">CPU</h1>
+    <div class="grille-produits">
+	  <h2 id="type_produit">Intel</h2>
+	  <table width="100%" border="0">
+  <tbody>
+    <tr>
+      <td><a href="#info1" class="img-trigger"><img class="produit product-img" src="Images Produits/Intel Core i9-14900K.jpg" width="380" height="380" alt=""/></a></td>
+      <td><a href="#info2" class="img-trigger"><img class="produit product-img" src="Images Produits/Intel Core i7-14700K.jpg" width="380" height="380" alt=""/></a></td>
+      <td><a href="#info3" class="img-trigger"><img class="produit product-img" src="Images Produits/Intel Core i5-12400F.jpg" width="380" height="380" alt=""/></a></td>
+    </tr>
+	<tr>
+      <td id="nom_produit">Intel Core i9-14900K</td>	
+      <td id="nom_produit">Intel Core i7-14700K</td>
+      <td id="nom_produit">Intel Core i5-12400F</td>
+    </tr>
+  </tbody>
+</table>	
+<h2 id="type_produit">AMD</h2>
+<table width="100%" border="0">
+  <tbody>
+    <tr>
+      <td><a href="#info4" class="img-trigger"><img class="produit product-img" src="Images Produits/AMD Ryzen 7 9800X3D.jpg" width="380" height="380" alt=""/></a></td>
+      <td><a href="#info5" class="img-trigger"><img class="produit product-img" src="Images Produits/AMD Ryzen 7 7800X3D.jpg" width="380" height="380" alt=""/></a></td>
+      <td><a href="#info6" class="img-trigger"><img class="produit product-img" src="Images Produits/AMD Ryzen 5 9600X.jpg" width="380" height="380" alt=""/></a></td>
+    </tr>
+	<tr>
+      <td id="nom_produit">AMD Ryzen 7 9800X3D</td>	
+      <td id="nom_produit">AMD Ryzen 7 7800X3D</td>
+      <td id="nom_produit">AMD Ryzen 5 9600X</td>
+    </tr>
+  </tbody>
+</table>	
+	  </div>
+  </section>
+</div>
+	
+<div id="info1" class="overlay">
+  <div class="popup">
+    <a class="close" href="#">&times;</a>
+    <h2>Intel Core i9-14900K</h2>
+    <hr>
+    <ul>
+      <li><strong>Nb de coeur : </strong> 24 (8 Performance et 16 Efficient)</li>
+      <li><strong>Nb de threads :</strong> 32</li>
+      <li><strong>Fréquence :</strong> De 3.2GHz à 6.0GHz</li>
+      <li><strong>Mémoire cache :</strong> 32 MB</li>
+	  <li><strong>Consommation énergétique (TDP) :</strong> De 125W à 253W</li>
+    </ul>
+	<div style="text-align: center; margin-top: 20px;">
+        <p style="font-size: 1.2em;"><strong>600 $</strong></p>
+        <button onclick="ajouterAuPanier('Intel Core i9-14900K', 600)" style="padding: 10px 20px; font-size: 1em; cursor: pointer; background-color: #007bff; color: white; border: none; border-radius: 5px;">Ajouter au panier</button>
+    </div>
+  </div>
+</div>
+
+<div id="info2" class="overlay">
+  <div class="popup">
+    <a class="close" href="#">&times;</a>
+    <h2>Intel Core i7-14700K</h2>
+    <hr>
+    <ul>
+      <li><strong>Nb de coeur : </strong> 20 (8 Performance et 12 Efficient)</li>
+      <li><strong>Nb de threads :</strong> 28</li>
+      <li><strong>Fréquence :</strong> De 3.4GHz à 5.6GHz</li>
+      <li><strong>Mémoire cache :</strong> 30 MB</li>
+	  <li><strong>Consommation énergétique (TDP) :</strong> De 125W à 253W</li>
+    </ul>
+	<div style="text-align: center; margin-top: 20px;">
+		<p style="color: red">Il en reste que 2 en stock !!!</p>
+        <p style="font-size: 1.2em;"><strong>450 $</strong></p>
+        <button onclick="ajouterAuPanier('Intel Core i7-14700K', 450)" style="padding: 10px 20px; font-size: 1em; cursor: pointer; background-color: #007bff; color: white; border: none; border-radius: 5px;">Ajouter au panier</button>
+    </div>
+  </div>
+</div>
+
+<div id="info3" class="overlay">
+  <div class="popup">
+    <a class="close" href="#">&times;</a>
+    <h2>Intel Core i5-12400F</h2>
+    <hr>
+    <ul>
+      <li><strong>Nb de coeur : </strong> 6</li>
+      <li><strong>Nb de threads :</strong> 12</li>
+      <li><strong>Fréquence :</strong> De 2.5GHz à 4.4GHz</li>
+      <li><strong>Mémoire cache :</strong> 15 MB</li>
+	  <li><strong>Consommation énergétique (TDP) :</strong> De 65W à 117W</li>
+    </ul>
+	<div style="text-align: center; margin-top: 20px;">
+        <p style="font-size: 1.2em;"><strong>150 $</strong></p>
+        <button onclick="ajouterAuPanier('Intel Core i5-12400F', 150)" style="padding: 10px 20px; font-size: 1em; cursor: pointer; background-color: #007bff; color: white; border: none; border-radius: 5px;">Ajouter au panier</button>
+    </div>
+  </div>
+</div>
+
+<div id="info4" class="overlay">
+  <div class="popup">
+    <a class="close" href="#">&times;</a>
+    <h2>AMD Ryzen 7 9800X3D</h2>
+    <hr>
+    <ul>
+      <li><strong>Nb de coeur : </strong> 8</li>
+      <li><strong>Nb de threads :</strong> 16</li>
+      <li><strong>Fréquence :</strong> De 4.7GHz à 5.2GHz</li>
+      <li><strong>Mémoire cache :</strong> De 8MB à 96 MB</li>
+	  <li><strong>Consommation énergétique (TDP) :</strong> 120W</li>
+    </ul>
+	<div style="text-align: center; margin-top: 20px;">
+		<p style="color: red">Il en reste que 1 en stock !!!</p>
+        <p style="font-size: 1.2em;"><strong>650 $</strong></p>
+        <button onclick="ajouterAuPanier('AMD Ryzen 7 9800X3D', 650)" style="padding: 10px 20px; font-size: 1em; cursor: pointer; background-color: #007bff; color: white; border: none; border-radius: 5px;">Ajouter au panier</button>
+    </div>
+  </div>
+</div>
+
+<div id="info5" class="overlay">
+  <div class="popup">
+    <a class="close" href="#">&times;</a>
+    <h2>AMD Ryzen 7 7800X3D</h2>
+    <hr>
+    <ul>
+      <li><strong>Nb de coeur : </strong> 8</li>
+      <li><strong>Nb de threads :</strong> 16</li>
+      <li><strong>Fréquence :</strong> De 4,2GHz à 5.0GHz</li>
+      <li><strong>Mémoire cache :</strong> De 96MB à 105 MB</li>
+	  <li><strong>Consommation énergétique (TDP) :</strong> De 120W</li>
+    </ul>
+	<div style="text-align: center; margin-top: 20px;">
+        <p style="font-size: 1.2em;"><strong>450 $</strong></p>
+        <button onclick="ajouterAuPanier('AMD Ryzen 7 7800X3D', 450)" style="padding: 10px 20px; font-size: 1em; cursor: pointer; background-color: #007bff; color: white; border: none; border-radius: 5px;">Ajouter au panier</button>
+    </div>
+  </div>
+</div>
+	
+<div id="info6" class="overlay">
+  <div class="popup">
+    <a class="close" href="#">&times;</a>
+    <h2>AMD Ryzen 5 9600X</h2>
+    <hr>
+    <ul>
+      <li><strong>Nb de coeur : </strong> 6</li>
+      <li><strong>Nb de threads :</strong> 12</li>
+      <li><strong>Fréquence :</strong> De 3.9GHz à 5.4GHz</li>
+      <li><strong>Mémoire cache :</strong> De 6MB à 32 MB</li>
+	  <li><strong>Consommation énergétique (TDP) :</strong> 65W</li>
+    </ul>
+	<div style="text-align: center; margin-top: 20px;">
+        <p style="font-size: 1.2em;"><strong>300 $</strong></p>
+        <button onclick="ajouterAuPanier('AMD Ryzen 5 9600X', 300)" style="padding: 10px 20px; font-size: 1em; cursor: pointer; background-color: #007bff; color: white; border: none; border-radius: 5px;">Ajouter au panier</button>
+    </div>
+  </div>
+</div>
+	
+<footer>
+  <nav class="footer-nav">
+    <p>Rejoignez-nous avec :</p>
+    <a href="#"> <img src="Images/discord-logo.png" alt="Discord" class="logo-social"/>Discord</a>
+    <a href="#"><img src="Images/facebook-logo.png" alt="Facebook" class="logo-social"/> Facebook</a>
+    <a href="#"><img src="Images/Mail-logo.png" alt="Mail" class="logo-social"/> Mail</a>
+  </nav>
+  <div id="public-info">
+    <p>© 2026 TheOnlyTao All rights reserved.</p>
+    <nav>
+      <a href="#">Privacy Policy</a> | 
+      <a href="#">Terms of Service</a>
+    </nav>
+  </div>
+</footer>
+	
+</body>
+</html>

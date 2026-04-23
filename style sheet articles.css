@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+/*Produit Hover*/
+.produit {width: 400px; 
+border-radius: 8px;
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
+z-index:1}
+
+.produit:hover {transform: scale(1.06);
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+cursor: pointer;
+z-index:10}
+
+/*Sidebar List*/
+.conteneur-page {
+	display: flex;
+	min-height: 80vh;}
+.sidebar {
+	width: 150px;
+	height: fill;
+	background-color: #272727;
+	padding: 20px;
+	margin-bottom: 0px;
+	border-right: 1px solid #ddd;}
+.sidebar ul {
+	list-style: none;
+	padding: 0;}
+.sidebar li {
+    margin-bottom: 15px;
+    color: #FFFFFF;}
+.sidebar a {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;}
+.sidebar a:link {
+	color: white;}
+.sidebar a:hover {
+	color: #00D6D9;}
+.contenu-principal {
+    flex: 1;
+    padding: 20px;
+    color: #FFFFFF;}
+
+/*Pop-up*/
+.product-container {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 8px;}
+.product-img {
+  display: block;
+  transition: transform 0.3s ease;}
+.img-trigger:hover .product-img {
+  transform: scale(1.05);
+  filter: brightness(0.9);}
+.overlay {
+  position: fixed;
+  top: 0; bottom: 0; left: 0; right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.4s;
+  z-index: 1000;}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+.popup {
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  width: 40%;
+  position: relative;}
+.popup .close {	
+  position: absolute;
+  top: 10px; right: 20px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #333;}
+
+td {padding-bottom: 8px}
+
+#categories {
+    text-align: center;
+    font-size: 50px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#type_produit {
+    color: white;
+    font-size: 40px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#nom_produit {
+	font-size:25px;}
